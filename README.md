@@ -1,16 +1,11 @@
-# Calculador de Interés Simple
+# Simple Interest Calculator
 
-Este es un proyecto práctico para el curso de desarrollo de software.
+A shell script to calculate simple interest given principal, annual rate of interest and time period in years.
 
-## Descripción
-Una herramienta sencilla escrita en Python para calcular el interés ganado o pagado sobre un préstamo.
+## Input:
+* p, principal amount
+* t, time period in years
+* r, annual rate of interest
 
-## Fórmula
-La fórmula utilizada es:
-A = P(1 + rt)
-
-Donde:
-- **A**: Monto total acumulado.
-- **P**: Monto principal.
-- **r**: Tasa de interés anual.
-- **t**: Tiempo en años.
+## Output:
+* simple interest = p*t*r
